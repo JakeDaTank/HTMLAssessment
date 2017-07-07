@@ -1,0 +1,43 @@
+h1, h2, h3, h4, h5, h6 {
+  color: purple;
+  font-size: 1.5em;
+}
+
+h3.subjectHeader{
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+li{
+   list-style-type: square;
+}
+
+blockquote{
+  background-color: black;
+  color: violet;
+}
+#teamRoster>li:first-child{
+background-image: url("https://preview.ibb.co/dGG6LF/broncosedited.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#teamRoster>li:last-child{
+background-image: url("https://preview.ibb.co/kcHkEa/bearsedited.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hyperLink:hover{
+  background-color: hotpink;
+  text-decoration: none;
+}
+form>ul>li{
+  list-style-type: none;
+}
+table{
+  margin: auto;
+  border: 1px solid black;
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
